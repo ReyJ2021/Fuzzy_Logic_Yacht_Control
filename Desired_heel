@@ -1,0 +1,9 @@
+function h = desired_heel()
+
+v = 10; % wind_velocity
+h_max = -pi/6;
+k = 1;
+v_max = 30;
+alpha_wind = pi;
+
+h = max(0,(h_max - k*abs(alpha_wind))*min(v, v_max)/v_max);
