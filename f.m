@@ -2,7 +2,7 @@
 % This function describes the dynamics of a 4DOF sailing yacht model
 % and gives the derivative of the state X and the sail angle delta_s.
 % The input vector V_in contains the system state and the control input vector.
-
+% Copyright Jerome Jouffroy, PhD, Unversity of Southern Denmark.
 % V_in =[ V_in(1) rudder angle in b-frame  (reference to yacht)
 %         V_in(2) maximum sail angle
 %         V_in(3) mass position relative to the centerline
